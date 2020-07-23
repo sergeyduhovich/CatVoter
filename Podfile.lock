@@ -1,16 +1,24 @@
 PODS:
-  - FontAwesome.swift (1.9.0)
+  - Sourcery (0.18.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.39.2)
 
 DEPENDENCIES:
-  - FontAwesome.swift
+  - Sourcery
+  - SVProgressHUD
+  - SwiftLint
 
 SPEC REPOS:
   trunk:
-    - FontAwesome.swift
+    - Sourcery
+    - SVProgressHUD
+    - SwiftLint
 
 SPEC CHECKSUMS:
-  FontAwesome.swift: a403b88cec950511745ba8f2decd1b6a07346d13
+  Sourcery: e0e8658a1ce6d9f475156ad3ffce4c68f1261b3e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
 
-PODFILE CHECKSUM: e3ad9639fdd63b1032bc6ffb307a3a5afd9cd33f
+PODFILE CHECKSUM: 2032420df4f932f918cbcfed85707d5e9c56b94c
 
 COCOAPODS: 1.9.3

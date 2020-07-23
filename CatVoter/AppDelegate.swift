@@ -11,7 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         window = UIWindow()
-        window?.rootViewController = ViewController()
+        window?.rootViewController = FeedFactory.make()
         window?.makeKeyAndVisible()
         
         return true

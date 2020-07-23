@@ -5,7 +5,9 @@ target 'CatVoter' do
   use_frameworks!
 
   # Pods for CatVoter
-  pod 'FontAwesome.swift'
+  pod 'SVProgressHUD'
+  pod 'SwiftLint'
+  pod 'Sourcery'
 
   target 'CatVoterTests' do
     inherit! :search_paths
