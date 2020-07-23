@@ -1,0 +1,996 @@
+[
+    {
+        "breeds": [],
+        "categories": [
+            {
+                "id": 5,
+                "name": "boxes"
+            }
+        ],
+        "id": "c0",
+        "url": "https://cdn2.thecatapi.com/images/c0.jpg",
+        "width": 1936,
+        "height": 1936
+    },
+    {
+        "breeds": [],
+        "id": "jc",
+        "url": "https://cdn2.thecatapi.com/images/jc.jpg",
+        "width": 640,
+        "height": 428
+    },
+    {
+        "breeds": [],
+        "categories": [
+            {
+                "id": 6,
+                "name": "caturday"
+            }
+        ],
+        "id": "nb",
+        "url": "https://cdn2.thecatapi.com/images/nb.jpg",
+        "width": 600,
+        "height": 450
+    },
+    {
+        "breeds": [],
+        "id": "1a6",
+        "url": "https://cdn2.thecatapi.com/images/1a6.gif",
+        "width": 500,
+        "height": 237
+    },
+    {
+        "breeds": [],
+        "id": "1nk",
+        "url": "https://cdn2.thecatapi.com/images/1nk.jpg",
+        "width": 1936,
+        "height": 2592
+    },
+    {
+        "breeds": [],
+        "id": "1ur",
+        "url": "https://cdn2.thecatapi.com/images/1ur.png",
+        "width": 765,
+        "height": 1024
+    },
+    {
+        "breeds": [],
+        "id": "2uo",
+        "url": "https://cdn2.thecatapi.com/images/2uo.jpg",
+        "width": 500,
+        "height": 335
+    },
+    {
+        "breeds": [],
+        "categories": [
+            {
+                "id": 1,
+                "name": "hats"
+            }
+        ],
+        "id": "36v",
+        "url": "https://cdn2.thecatapi.com/images/36v.jpg",
+        "width": 720,
+        "height": 540
+    },
+    {
+        "breeds": [],
+        "categories": [
+            {
+                "id": 1,
+                "name": "hats"
+            }
+        ],
+        "id": "39r",
+        "url": "https://cdn2.thecatapi.com/images/39r.jpg",
+        "width": 1024,
+        "height": 680
+    },
+    {
+        "breeds": [],
+        "categories": [
+            {
+                "id": 6,
+                "name": "caturday"
+            }
+        ],
+        "id": "3bl",
+        "url": "https://cdn2.thecatapi.com/images/3bl.jpg",
+        "width": 700,
+        "height": 468
+    },
+    {
+        "breeds": [],
+        "id": "3kh",
+        "url": "https://cdn2.thecatapi.com/images/3kh.jpg",
+        "width": 500,
+        "height": 277
+    },
+    {
+        "breeds": [],
+        "id": "3lr",
+        "url": "https://cdn2.thecatapi.com/images/3lr.jpg",
+        "width": 500,
+        "height": 336
+    },
+    {
+        "breeds": [],
+        "id": "3vv",
+        "url": "https://cdn2.thecatapi.com/images/3vv.jpg",
+        "width": 500,
+        "height": 334
+    },
+    {
+        "breeds": [],
+        "id": "4kj",
+        "url": "https://cdn2.thecatapi.com/images/4kj.gif",
+        "width": 200,
+        "height": 150
+    },
+    {
+        "breeds": [],
+        "categories": [
+            {
+                "id": 9,
+                "name": "dream"
+            }
+        ],
+        "id": "6g2",
+        "url": "https://cdn2.thecatapi.com/images/6g2.jpg",
+        "width": 500,
+        "height": 333
+    },
+    {
+        "breeds": [],
+        "id": "6m7",
+        "url": "https://cdn2.thecatapi.com/images/6m7.jpg",
+        "width": 2048,
+        "height": 2048
+    },
+    {
+        "breeds": [],
+        "id": "70b",
+        "url": "https://cdn2.thecatapi.com/images/70b.jpg",
+        "width": 420,
+        "height": 292
+    },
+    {
+        "breeds": [],
+        "id": "7kp",
+        "url": "https://cdn2.thecatapi.com/images/7kp.jpg",
+        "width": 640,
+        "height": 429
+    },
+    {
+        "breeds": [],
+        "id": "7ph",
+        "url": "https://cdn2.thecatapi.com/images/7ph.jpg",
+        "width": 640,
+        "height": 427
+    },
+    {
+        "breeds": [],
+        "id": "8it",
+        "url": "https://cdn2.thecatapi.com/images/8it.jpg",
+        "width": 500,
+        "height": 333
+    },
+    {
+        "breeds": [],
+        "categories": [
+            {
+                "id": 14,
+                "name": "sinks"
+            }
+        ],
+        "id": "8of",
+        "url": "https://cdn2.thecatapi.com/images/8of.jpg",
+        "width": 1024,
+        "height": 764
+    },
+    {
+        "breeds": [],
+        "id": "99f",
+        "url": "https://cdn2.thecatapi.com/images/99f.jpg",
+        "width": 550,
+        "height": 600
+    },
+    {
+        "breeds": [],
+        "id": "9k4",
+        "url": "https://cdn2.thecatapi.com/images/9k4.jpg",
+        "width": 1200,
+        "height": 799
+    },
+    {
+        "breeds": [],
+        "id": "9qn",
+        "url": "https://cdn2.thecatapi.com/images/9qn.png",
+        "width": 600,
+        "height": 800
+    },
+    {
+        "breeds": [],
+        "id": "9u0",
+        "url": "https://cdn2.thecatapi.com/images/9u0.jpg",
+        "width": 768,
+        "height": 1024
+    },
+    {
+        "breeds": [],
+        "id": "a2q",
+        "url": "https://cdn2.thecatapi.com/images/a2q.jpg",
+        "width": 1356,
+        "height": 2048
+    },
+    {
+        "breeds": [],
+        "id": "a3q",
+        "url": "https://cdn2.thecatapi.com/images/a3q.jpg",
+        "width": 533,
+        "height": 800
+    },
+    {
+        "breeds": [],
+        "id": "a3v",
+        "url": "https://cdn2.thecatapi.com/images/a3v.jpg",
+        "width": 1704,
+        "height": 2272
+    },
+    {
+        "breeds": [],
+        "id": "a6n",
+        "url": "https://cdn2.thecatapi.com/images/a6n.jpg",
+        "width": 500,
+        "height": 331
+    },
+    {
+        "breeds": [],
+        "id": "a9r",
+        "url": "https://cdn2.thecatapi.com/images/a9r.jpg",
+        "width": 500,
+        "height": 333
+    },
+    {
+        "breeds": [],
+        "id": "aco",
+        "url": "https://cdn2.thecatapi.com/images/aco.jpg",
+        "width": 506,
+        "height": 380
+    },
+    {
+        "breeds": [],
+        "id": "adj",
+        "url": "https://cdn2.thecatapi.com/images/adj.jpg",
+        "width": 768,
+        "height": 803
+    },
+    {
+        "breeds": [],
+        "id": "ahi",
+        "url": "https://cdn2.thecatapi.com/images/ahi.jpg",
+        "width": 640,
+        "height": 427
+    },
+    {
+        "breeds": [],
+        "id": "ahu",
+        "url": "https://cdn2.thecatapi.com/images/ahu.jpg",
+        "width": 612,
+        "height": 612
+    },
+    {
+        "breeds": [],
+        "id": "as2",
+        "url": "https://cdn2.thecatapi.com/images/as2.jpg",
+        "width": 900,
+        "height": 1350
+    },
+    {
+        "breeds": [],
+        "id": "at3",
+        "url": "https://cdn2.thecatapi.com/images/at3.jpg",
+        "width": 612,
+        "height": 612
+    },
+    {
+        "breeds": [],
+        "id": "b0e",
+        "url": "https://cdn2.thecatapi.com/images/b0e.jpg",
+        "width": 500,
+        "height": 332
+    },
+    {
+        "breeds": [],
+        "id": "b1p",
+        "url": "https://cdn2.thecatapi.com/images/b1p.jpg",
+        "width": 500,
+        "height": 375
+    },
+    {
+        "breeds": [],
+        "id": "b1u",
+        "url": "https://cdn2.thecatapi.com/images/b1u.jpg",
+        "width": 612,
+        "height": 612
+    },
+    {
+        "breeds": [],
+        "id": "b3s",
+        "url": "https://cdn2.thecatapi.com/images/b3s.jpg",
+        "width": 1024,
+        "height": 813
+    },
+    {
+        "breeds": [],
+        "id": "bbr",
+        "url": "https://cdn2.thecatapi.com/images/bbr.jpg",
+        "width": 400,
+        "height": 280
+    },
+    {
+        "breeds": [],
+        "id": "bek",
+        "url": "https://cdn2.thecatapi.com/images/bek.jpg",
+        "width": 500,
+        "height": 334
+    },
+    {
+        "breeds": [],
+        "id": "bjs",
+        "url": "https://cdn2.thecatapi.com/images/bjs.jpg",
+        "width": 549,
+        "height": 412
+    },
+    {
+        "breeds": [],
+        "id": "bqm",
+        "url": "https://cdn2.thecatapi.com/images/bqm.jpg",
+        "width": 864,
+        "height": 576
+    },
+    {
+        "breeds": [],
+        "id": "buo",
+        "url": "https://cdn2.thecatapi.com/images/buo.jpg",
+        "width": 640,
+        "height": 427
+    },
+    {
+        "breeds": [],
+        "id": "c1b",
+        "url": "https://cdn2.thecatapi.com/images/c1b.jpg",
+        "width": 900,
+        "height": 600
+    },
+    {
+        "breeds": [],
+        "id": "c7p",
+        "url": "https://cdn2.thecatapi.com/images/c7p.jpg",
+        "width": 541,
+        "height": 600
+    },
+    {
+        "breeds": [],
+        "id": "cd3",
+        "url": "https://cdn2.thecatapi.com/images/cd3.jpg",
+        "width": 640,
+        "height": 439
+    },
+    {
+        "breeds": [],
+        "id": "chb",
+        "url": "https://cdn2.thecatapi.com/images/chb.jpg",
+        "width": 480,
+        "height": 360
+    },
+    {
+        "breeds": [],
+        "id": "ci3",
+        "url": "https://cdn2.thecatapi.com/images/ci3.jpg",
+        "width": 600,
+        "height": 750
+    },
+    {
+        "breeds": [],
+        "id": "ckh",
+        "url": "https://cdn2.thecatapi.com/images/ckh.jpg",
+        "width": 499,
+        "height": 672
+    },
+    {
+        "breeds": [],
+        "id": "clb",
+        "url": "https://cdn2.thecatapi.com/images/clb.jpg",
+        "width": 1632,
+        "height": 1224
+    },
+    {
+        "breeds": [],
+        "id": "cqp",
+        "url": "https://cdn2.thecatapi.com/images/cqp.jpg",
+        "width": 3264,
+        "height": 2448
+    },
+    {
+        "breeds": [],
+        "id": "ctb",
+        "url": "https://cdn2.thecatapi.com/images/ctb.jpg",
+        "width": 1435,
+        "height": 1435
+    },
+    {
+        "breeds": [],
+        "id": "cu0",
+        "url": "https://cdn2.thecatapi.com/images/cu0.jpg",
+        "width": 1600,
+        "height": 1200
+    },
+    {
+        "breeds": [],
+        "id": "dbr",
+        "url": "https://cdn2.thecatapi.com/images/dbr.gif",
+        "width": 450,
+        "height": 357
+    },
+    {
+        "breeds": [],
+        "id": "dcq",
+        "url": "https://cdn2.thecatapi.com/images/dcq.jpg",
+        "width": 733,
+        "height": 1089
+    },
+    {
+        "breeds": [],
+        "id": "dh5",
+        "url": "https://cdn2.thecatapi.com/images/dh5.jpg",
+        "width": 619,
+        "height": 910
+    },
+    {
+        "breeds": [],
+        "id": "dmb",
+        "url": "https://cdn2.thecatapi.com/images/dmb.jpg",
+        "width": 644,
+        "height": 768
+    },
+    {
+        "breeds": [],
+        "id": "dmv",
+        "url": "https://cdn2.thecatapi.com/images/dmv.jpg",
+        "width": 960,
+        "height": 1280
+    },
+    {
+        "breeds": [],
+        "id": "dt6",
+        "url": "https://cdn2.thecatapi.com/images/dt6.gif",
+        "width": 430,
+        "height": 242
+    },
+    {
+        "breeds": [],
+        "id": "dui",
+        "url": "https://cdn2.thecatapi.com/images/dui.jpg",
+        "width": 2592,
+        "height": 1456
+    },
+    {
+        "breeds": [],
+        "id": "e10",
+        "url": "https://cdn2.thecatapi.com/images/e10.jpg",
+        "width": 345,
+        "height": 500
+    },
+    {
+        "breeds": [],
+        "id": "eb4",
+        "url": "https://cdn2.thecatapi.com/images/eb4.jpg",
+        "width": 600,
+        "height": 600
+    },
+    {
+        "breeds": [],
+        "id": "ehu",
+        "url": "https://cdn2.thecatapi.com/images/ehu.jpg",
+        "width": 1024,
+        "height": 685
+    },
+    {
+        "breeds": [],
+        "id": "ehv",
+        "url": "https://cdn2.thecatapi.com/images/ehv.jpg",
+        "width": 900,
+        "height": 502
+    },
+    {
+        "breeds": [],
+        "categories": [
+            {
+                "id": 6,
+                "name": "caturday"
+            }
+        ],
+        "id": "MTUzMTY1NQ",
+        "url": "https://cdn2.thecatapi.com/images/MTUzMTY1NQ.jpg",
+        "width": 533,
+        "height": 800
+    },
+    {
+        "breeds": [],
+        "id": "MTU2ODI3MA",
+        "url": "https://cdn2.thecatapi.com/images/MTU2ODI3MA.jpg",
+        "width": 720,
+        "height": 960
+    },
+    {
+        "breeds": [],
+        "id": "MTU4ODYwNg",
+        "url": "https://cdn2.thecatapi.com/images/MTU4ODYwNg.jpg",
+        "width": 612,
+        "height": 612
+    },
+    {
+        "breeds": [],
+        "id": "MTYwMTM2NA",
+        "url": "https://cdn2.thecatapi.com/images/MTYwMTM2NA.jpg",
+        "width": 2888,
+        "height": 2063
+    },
+    {
+        "breeds": [],
+        "id": "MTYwNzgyMA",
+        "url": "https://cdn2.thecatapi.com/images/MTYwNzgyMA.jpg",
+        "width": 1280,
+        "height": 960
+    },
+    {
+        "breeds": [],
+        "id": "MTY1MjExMA",
+        "url": "https://cdn2.thecatapi.com/images/MTY1MjExMA.jpg",
+        "width": 500,
+        "height": 375
+    },
+    {
+        "breeds": [],
+        "id": "MTc2OTU4Ng",
+        "url": "https://cdn2.thecatapi.com/images/MTc2OTU4Ng.jpg",
+        "width": 500,
+        "height": 351
+    },
+    {
+        "breeds": [],
+        "id": "MTgzNzY2OA",
+        "url": "https://cdn2.thecatapi.com/images/MTgzNzY2OA.jpg",
+        "width": 700,
+        "height": 933
+    },
+    {
+        "breeds": [],
+        "id": "MTg0OTExOA",
+        "url": "https://cdn2.thecatapi.com/images/MTg0OTExOA.jpg",
+        "width": 974,
+        "height": 1280
+    },
+    {
+        "breeds": [],
+        "id": "MTg1MDU4OQ",
+        "url": "https://cdn2.thecatapi.com/images/MTg1MDU4OQ.jpg",
+        "width": 1356,
+        "height": 2048
+    },
+    {
+        "breeds": [],
+        "id": "MTg1NTk4Mg",
+        "url": "https://cdn2.thecatapi.com/images/MTg1NTk4Mg.jpg",
+        "width": 500,
+        "height": 331
+    },
+    {
+        "breeds": [],
+        "id": "MTg1NjQwNw",
+        "url": "https://cdn2.thecatapi.com/images/MTg1NjQwNw.jpg",
+        "width": 700,
+        "height": 452
+    },
+    {
+        "breeds": [],
+        "id": "MTkyNzQ3NA",
+        "url": "https://cdn2.thecatapi.com/images/MTkyNzQ3NA.gif",
+        "width": 400,
+        "height": 300
+    },
+    {
+        "breeds": [],
+        "id": "MTkzNzc3OQ",
+        "url": "https://cdn2.thecatapi.com/images/MTkzNzc3OQ.png",
+        "width": 898,
+        "height": 597
+    },
+    {
+        "breeds": [],
+        "id": "MjAxMzk4OQ",
+        "url": "https://cdn2.thecatapi.com/images/MjAxMzk4OQ.jpg",
+        "width": 717,
+        "height": 478
+    },
+    {
+        "breeds": [],
+        "id": "MjA0NTk0OQ",
+        "url": "https://cdn2.thecatapi.com/images/MjA0NTk0OQ.jpg",
+        "width": 720,
+        "height": 540
+    },
+    {
+        "breeds": [],
+        "id": "MjA2NTcxNA",
+        "url": "https://cdn2.thecatapi.com/images/MjA2NTcxNA.jpg",
+        "width": 500,
+        "height": 375
+    },
+    {
+        "breeds": [],
+        "id": "MjA4ODgxMw",
+        "url": "https://cdn2.thecatapi.com/images/MjA4ODgxMw.jpg",
+        "width": 500,
+        "height": 500
+    },
+    {
+        "breeds": [],
+        "id": "MjA5MDc0MQ",
+        "url": "https://cdn2.thecatapi.com/images/MjA5MDc0MQ.jpg",
+        "width": 600,
+        "height": 900
+    },
+    {
+        "breeds": [],
+        "id": "aWVBkymei",
+        "url": "https://cdn2.thecatapi.com/images/aWVBkymei.jpg",
+        "width": 1242,
+        "height": 1268
+    },
+    {
+        "breeds": [],
+        "id": "p6JJ_oZ2_",
+        "url": "https://cdn2.thecatapi.com/images/p6JJ_oZ2_.jpg",
+        "width": 730,
+        "height": 762
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "12 - 20",
+                    "metric": "5 - 9"
+                },
+                "id": "bsho",
+                "name": "British Shorthair",
+                "cfa_url": "http://cfa.org/Breeds/BreedsAB/BritishShorthair.aspx",
+                "vetstreet_url": "http://www.vetstreet.com/cats/british-shorthair",
+                "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/british-shorthair",
+                "temperament": "Affectionate, Easy Going, Gentle, Loyal, Patient, calm",
+                "origin": "United Kingdom",
+                "country_codes": "GB",
+                "country_code": "GB",
+                "description": "The British Shorthair is a very pleasant cat to have as a companion, ans is easy going and placid. The British is a fiercely loyal, loving cat and will attach herself to every one of her family members. While loving to play, she doesn't need hourly attention. If she is in the mood to play, she will find someone and bring a toy to that person. The British also plays well by herself, and thus is a good companion for single people.",
+                "life_span": "12 - 17",
+                "indoor": 0,
+                "lap": 1,
+                "alt_names": "Highlander, Highland Straight, Britannica",
+                "adaptability": 5,
+                "affection_level": 4,
+                "child_friendly": 4,
+                "dog_friendly": 5,
+                "energy_level": 2,
+                "grooming": 2,
+                "health_issues": 2,
+                "intelligence": 3,
+                "shedding_level": 4,
+                "social_needs": 3,
+                "stranger_friendly": 2,
+                "vocalisation": 1,
+                "experimental": 0,
+                "hairless": 0,
+                "natural": 1,
+                "rare": 0,
+                "rex": 0,
+                "suppressed_tail": 0,
+                "short_legs": 0,
+                "wikipedia_url": "https://en.wikipedia.org/wiki/British_Shorthair",
+                "hypoallergenic": 0
+            }
+        ],
+        "id": "utX9jo5EO",
+        "url": "https://cdn2.thecatapi.com/images/utX9jo5EO.jpg",
+        "width": 733,
+        "height": 1100
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "6 - 15",
+                    "metric": "3 - 7"
+                },
+                "id": "char",
+                "name": "Chartreux",
+                "cfa_url": "http://cfa.org/Breeds/BreedsCJ/Chartreux.aspx",
+                "vetstreet_url": "http://www.vetstreet.com/cats/chartreux",
+                "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/chartreux",
+                "temperament": "Affectionate, Loyal, Intelligent, Social, Lively, Playful",
+                "origin": "France",
+                "country_codes": "FR",
+                "country_code": "FR",
+                "description": "The Chartreux is generally silent but communicative. Short play sessions, mixed with naps and meals are their perfect day. Whilst appreciating any attention you give them, they are not demanding, content instead to follow you around devotedly, sleep on your bed and snuggle with you if you’re not feeling well.",
+                "life_span": "12 - 15",
+                "indoor": 0,
+                "lap": 1,
+                "alt_names": "",
+                "adaptability": 5,
+                "affection_level": 5,
+                "child_friendly": 4,
+                "dog_friendly": 5,
+                "energy_level": 2,
+                "grooming": 1,
+                "health_issues": 2,
+                "intelligence": 4,
+                "shedding_level": 3,
+                "social_needs": 5,
+                "stranger_friendly": 5,
+                "vocalisation": 1,
+                "experimental": 0,
+                "hairless": 0,
+                "natural": 0,
+                "rare": 0,
+                "rex": 1,
+                "suppressed_tail": 0,
+                "short_legs": 0,
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Chartreux",
+                "hypoallergenic": 1
+            }
+        ],
+        "id": "3-DZDkDGa",
+        "url": "https://cdn2.thecatapi.com/images/3-DZDkDGa.jpg",
+        "width": 4272,
+        "height": 2848
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "9 - 12",
+                    "metric": "4 - 6"
+                },
+                "id": "lihu",
+                "name": "Dragon Li",
+                "vetstreet_url": "http://www.vetstreet.com/cats/li-hua",
+                "temperament": "Intelligent, Friendly, Gentle, Loving, Loyal",
+                "origin": "China",
+                "country_codes": "CN",
+                "country_code": "CN",
+                "description": "The Dragon Li is loyal, but not particularly affectionate. They are known to be very intelligent, and their natural breed status means that they're very active. She is is gentle with people, and has a reputation as a talented hunter of rats and other vermin.",
+                "life_span": "12 - 15",
+                "indoor": 1,
+                "alt_names": "Chinese Lia Hua, Lí hua māo (貍花貓), Li Hua",
+                "adaptability": 3,
+                "affection_level": 3,
+                "child_friendly": 3,
+                "cat_friendly": 3,
+                "dog_friendly": 3,
+                "energy_level": 3,
+                "grooming": 1,
+                "health_issues": 1,
+                "intelligence": 3,
+                "shedding_level": 3,
+                "social_needs": 4,
+                "stranger_friendly": 3,
+                "vocalisation": 3,
+                "experimental": 0,
+                "hairless": 0,
+                "natural": 1,
+                "rare": 0,
+                "rex": 0,
+                "suppressed_tail": 0,
+                "short_legs": 0,
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Dragon_Li",
+                "hypoallergenic": 0
+            }
+        ],
+        "id": "mjeF1hs8v",
+        "url": "https://cdn2.thecatapi.com/images/mjeF1hs8v.jpg",
+        "width": 800,
+        "height": 528
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "5 - 11",
+                    "metric": "2 - 5"
+                },
+                "id": "rblu",
+                "name": "Russian Blue",
+                "cfa_url": "http://cfa.org/Breeds/BreedsKthruR/RussianBlue.aspx",
+                "vetstreet_url": "http://www.vetstreet.com/cats/russian-blue-nebelung",
+                "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/russian-blue",
+                "temperament": "Active, Dependent, Easy Going, Gentle, Intelligent, Loyal, Playful, Quiet",
+                "origin": "Russia",
+                "country_codes": "RU",
+                "country_code": "RU",
+                "description": "Russian Blues are very loving and reserved. They do not like noisy households but they do like to play and can be quite active when outdoors. They bond very closely with their owner and are known to be compatible with other pets.",
+                "life_span": "10 - 16",
+                "indoor": 0,
+                "lap": 1,
+                "alt_names": "Archangel Blue, Archangel Cat",
+                "adaptability": 3,
+                "affection_level": 3,
+                "child_friendly": 3,
+                "dog_friendly": 3,
+                "energy_level": 3,
+                "grooming": 3,
+                "health_issues": 1,
+                "intelligence": 3,
+                "shedding_level": 3,
+                "social_needs": 3,
+                "stranger_friendly": 1,
+                "vocalisation": 1,
+                "experimental": 0,
+                "hairless": 0,
+                "natural": 1,
+                "rare": 0,
+                "rex": 0,
+                "suppressed_tail": 0,
+                "short_legs": 0,
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Russian_Blue",
+                "hypoallergenic": 1
+            }
+        ],
+        "id": "zK-7AFYVn",
+        "url": "https://cdn2.thecatapi.com/images/zK-7AFYVn.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "8 - 25",
+                    "metric": "4 - 11"
+                },
+                "id": "sava",
+                "name": "Savannah",
+                "vetstreet_url": "http://www.vetstreet.com/cats/savannah",
+                "temperament": "Curious, Social, Intelligent, Loyal, Outgoing, Adventurous, Affectionate",
+                "origin": "United States",
+                "country_codes": "US",
+                "country_code": "US",
+                "description": "Savannah is the feline version of a dog. Actively seeking social interaction, they are given to pouting if left out. Remaining kitten-like through life. Profoundly loyal to immediate family members whilst questioning the presence of strangers. Making excellent companions that are loyal, intelligent and eager to be involved.",
+                "life_span": "17 - 20",
+                "indoor": 0,
+                "alt_names": "",
+                "adaptability": 5,
+                "affection_level": 5,
+                "child_friendly": 4,
+                "dog_friendly": 5,
+                "energy_level": 5,
+                "grooming": 1,
+                "health_issues": 1,
+                "intelligence": 5,
+                "shedding_level": 3,
+                "social_needs": 5,
+                "stranger_friendly": 5,
+                "vocalisation": 1,
+                "experimental": 1,
+                "hairless": 0,
+                "natural": 0,
+                "rare": 0,
+                "rex": 0,
+                "suppressed_tail": 0,
+                "short_legs": 0,
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Savannah_cat",
+                "hypoallergenic": 0
+            }
+        ],
+        "id": "IOjBCPLXA",
+        "url": "https://cdn2.thecatapi.com/images/IOjBCPLXA.jpg",
+        "width": 2048,
+        "height": 1536
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "5 - 11",
+                    "metric": "2 - 5"
+                },
+                "id": "sfol",
+                "name": "Scottish Fold",
+                "cfa_url": "http://cfa.org/Breeds/BreedsSthruT/ScottishFold.aspx",
+                "vetstreet_url": "http://www.vetstreet.com/cats/scottish-fold-highland-fold",
+                "vcahospitals_url": "https://vcahospitals.com/know-your-pet/cat-breeds/scottish-fold",
+                "temperament": "Affectionate, Intelligent, Loyal, Playful, Social, Sweet, Loving",
+                "origin": "United Kingdom",
+                "country_codes": "GB",
+                "country_code": "GB",
+                "description": "The Scottish Fold is a sweet, charming breed. She is an easy cat to live with and to care for. She is affectionate and is comfortable with all members of her family. Her tail should be handled gently. Folds are known for sleeping on their backs, and for sitting with their legs stretched out and their paws on their belly. This is called the \"Buddha Position\".",
+                "life_span": "11 - 14",
+                "indoor": 0,
+                "alt_names": "Scot Fold",
+                "adaptability": 5,
+                "affection_level": 5,
+                "child_friendly": 4,
+                "dog_friendly": 5,
+                "energy_level": 3,
+                "grooming": 1,
+                "health_issues": 4,
+                "intelligence": 3,
+                "shedding_level": 3,
+                "social_needs": 3,
+                "stranger_friendly": 3,
+                "vocalisation": 1,
+                "experimental": 0,
+                "hairless": 0,
+                "natural": 0,
+                "rare": 0,
+                "rex": 0,
+                "suppressed_tail": 0,
+                "short_legs": 0,
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Scottish_Fold",
+                "hypoallergenic": 0
+            }
+        ],
+        "id": "Tbc8_VStM",
+        "url": "https://cdn2.thecatapi.com/images/Tbc8_VStM.jpg",
+        "width": 1500,
+        "height": 996
+    },
+    {
+        "breeds": [],
+        "id": "bwfzfJzOl",
+        "url": "https://cdn2.thecatapi.com/images/bwfzfJzOl.jpg",
+        "width": 1280,
+        "height": 1280
+    },
+    {
+        "breeds": [],
+        "id": "vHVD3FZ52",
+        "url": "https://cdn2.thecatapi.com/images/vHVD3FZ52.jpg",
+        "width": 1280,
+        "height": 720
+    },
+    {
+        "breeds": [],
+        "id": "NuwK_UY9u",
+        "url": "https://cdn2.thecatapi.com/images/NuwK_UY9u.jpg",
+        "width": 960,
+        "height": 585
+    },
+    {
+        "breeds": [],
+        "id": "g_gwg8yrb",
+        "url": "https://cdn2.thecatapi.com/images/g_gwg8yrb.jpg",
+        "width": 3024,
+        "height": 4032
+    },
+    {
+        "breeds": [],
+        "id": "nPxWNACv3",
+        "url": "https://cdn2.thecatapi.com/images/nPxWNACv3.jpg",
+        "width": 3264,
+        "height": 2448
+    },
+    {
+        "breeds": [],
+        "id": "tZCWO4oi2",
+        "url": "https://cdn2.thecatapi.com/images/tZCWO4oi2.jpg",
+        "width": 600,
+        "height": 400
+    },
+    {
+        "breeds": [],
+        "id": "096MoT1bB",
+        "url": "https://cdn2.thecatapi.com/images/096MoT1bB.jpg",
+        "width": 578,
+        "height": 400
+    }
+]
