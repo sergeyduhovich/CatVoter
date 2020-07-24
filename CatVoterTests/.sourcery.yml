@@ -1,0 +1,7 @@
+sources:
+    include:
+        - ../CatVoter
+templates:
+    - ../Sourcery/AutoMockable.stencil
+output:
+    Mocks

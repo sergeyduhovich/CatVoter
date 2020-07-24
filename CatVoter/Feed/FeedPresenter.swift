@@ -10,7 +10,11 @@ class FeedPresenter: FeedPresenterType {
     }
 
     func reloadFeed() {
-        
+        view?.showLoading()
+
+        service.fetchFeed { [weak self] feed in
+            self?.view?.hideLoading()
+        }
     }
 
     func appendFeed() {

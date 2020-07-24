@@ -13,7 +13,6 @@
 		EC7993A324CA253E0074B932 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993A224CA253E0074B932 /* SceneDelegate.swift */; };
 		EC7993AA24CA25400074B932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7993A924CA25400074B932 /* Assets.xcassets */; };
 		EC7993AD24CA25400074B932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7993AB24CA25400074B932 /* LaunchScreen.storyboard */; };
-		EC7993B824CA25400074B932 /* CatVoterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993B724CA25400074B932 /* CatVoterTests.swift */; };
 		EC7993C624CA33CE0074B932 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993C524CA33CE0074B932 /* Image.swift */; };
 		EC7993C824CA340A0074B932 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993C724CA340A0074B932 /* Category.swift */; };
 		EC7993CA24CA345B0074B932 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993C924CA345B0074B932 /* Breed.swift */; };
@@ -30,6 +29,8 @@
 		EC7993E224CA52E10074B932 /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993E124CA52E10074B932 /* FeedService.swift */; };
 		EC7993E524CA56A80074B932 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993E324CA56A80074B932 /* FeedCell.swift */; };
 		EC7993E624CA56A80074B932 /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC7993E424CA56A80074B932 /* FeedCell.xib */; };
+		EC7993EC24CA6EA70074B932 /* AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993EB24CA6EA70074B932 /* AutoMockable.generated.swift */; };
+		EC7993EF24CA6FFF0074B932 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993EE24CA6FFF0074B932 /* FeedPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,6 @@
 		EC7993AC24CA25400074B932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC7993AE24CA25400074B932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7993B324CA25400074B932 /* CatVoterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatVoterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC7993B724CA25400074B932 /* CatVoterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatVoterTests.swift; sourceTree = "<group>"; };
 		EC7993B924CA25400074B932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7993C524CA33CE0074B932 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		EC7993C724CA340A0074B932 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -74,6 +74,9 @@
 		EC7993E124CA52E10074B932 /* FeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedService.swift; sourceTree = "<group>"; };
 		EC7993E324CA56A80074B932 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		EC7993E424CA56A80074B932 /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
+		EC7993E724CA6A340074B932 /* .sourcery.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .sourcery.yml; sourceTree = "<group>"; };
+		EC7993EB24CA6EA70074B932 /* AutoMockable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMockable.generated.swift; sourceTree = "<group>"; };
+		EC7993EE24CA6FFF0074B932 /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +158,9 @@
 		EC7993B624CA25400074B932 /* CatVoterTests */ = {
 			isa = PBXGroup;
 			children = (
-				EC7993B724CA25400074B932 /* CatVoterTests.swift */,
+				EC7993ED24CA6FD00074B932 /* Feed */,
+				EC7993EA24CA6EA70074B932 /* Mocks */,
+				EC7993E724CA6A340074B932 /* .sourcery.yml */,
 				EC7993B924CA25400074B932 /* Info.plist */,
 			);
 			path = CatVoterTests;
@@ -197,6 +202,22 @@
 			path = Feed;
 			sourceTree = "<group>";
 		};
+		EC7993EA24CA6EA70074B932 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				EC7993EB24CA6EA70074B932 /* AutoMockable.generated.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		EC7993ED24CA6FD00074B932 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				EC7993EE24CA6FFF0074B932 /* FeedPresenterTests.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,6 +248,7 @@
 				EC7993AF24CA25400074B932 /* Sources */,
 				EC7993B024CA25400074B932 /* Frameworks */,
 				EC7993B124CA25400074B932 /* Resources */,
+				EC7993E824CA6B8F0074B932 /* Sourcery */,
 			);
 			buildRules = (
 			);
@@ -362,6 +384,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatVoter/Pods-CatVoter-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EC7993E824CA6B8F0074B932 /* Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Sourcery;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Sourcery/bin/sourcery --config CatVoterTests/.sourcery.yml\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -389,7 +429,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7993B824CA25400074B932 /* CatVoterTests.swift in Sources */,
+				EC7993EF24CA6FFF0074B932 /* FeedPresenterTests.swift in Sources */,
+				EC7993EC24CA6EA70074B932 /* AutoMockable.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

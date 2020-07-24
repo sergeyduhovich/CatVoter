@@ -1,5 +1,6 @@
 import UIKit
 
+// sourcery: AutoMockable
 protocol FeedViewType: class {
     func emptyFeed()
     func append(feed: [Feed])
@@ -7,11 +8,13 @@ protocol FeedViewType: class {
     func hideLoading()
 }
 
+// sourcery: AutoMockable
 protocol FeedPresenterType {
     func reloadFeed()
     func appendFeed()
 }
 
+// sourcery: AutoMockable
 protocol FeedServiceType {
     func fetchFeed(compeltion: @escaping ([Feed]) -> Void)
 }
