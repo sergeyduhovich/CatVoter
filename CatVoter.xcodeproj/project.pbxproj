@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02558E073995569A08143496 /* Pods_CatVoter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973159A00A31BDBD3B076236 /* Pods_CatVoter.framework */; };
-		B05B3951D0475BB435C6FFC4 /* Pods_CatVoterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EFED2F0694BC4463F67A11 /* Pods_CatVoterTests.framework */; };
+		44629F4C38F9931AFC4FC2B8 /* Pods_TheCatsAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CCCF19A75E9678AE1CF796 /* Pods_TheCatsAPITests.framework */; };
+		6CFDA92503DA7EE5151BA2A7 /* Pods_CatVoter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FF499700367F1AD1F8C1C5 /* Pods_CatVoter.framework */; };
+		7132BC332F67D27AA75F176C /* Pods_TheCatsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8FE46ED7A04263BBBE9FD /* Pods_TheCatsAPI.framework */; };
 		EC7993A124CA253E0074B932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993A024CA253E0074B932 /* AppDelegate.swift */; };
 		EC7993A324CA253E0074B932 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993A224CA253E0074B932 /* SceneDelegate.swift */; };
 		EC7993AA24CA25400074B932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7993A924CA25400074B932 /* Assets.xcassets */; };
@@ -33,11 +34,16 @@
 		EC79944D24CA80DB0074B932 /* breeds.json in Resources */ = {isa = PBXBuildFile; fileRef = EC7993CE24CA37C70074B932 /* breeds.json */; };
 		EC79944E24CA80DB0074B932 /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = EC7993D024CA37F80074B932 /* categories.json */; };
 		EC79944F24CA80DB0074B932 /* images.json in Resources */ = {isa = PBXBuildFile; fileRef = EC7993D224CA391F0074B932 /* images.json */; };
-		EC79945024CA80DB0074B932 /* LocalFileFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7993D424CA39E40074B932 /* LocalFileFetcher.swift */; };
 		EC79945224CA86510074B932 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79945124CA86510074B932 /* RequestProtocol.swift */; };
 		EC79945424CA866A0074B932 /* TheCatsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79945324CA866A0074B932 /* TheCatsError.swift */; };
 		EC79945724CA86B50074B932 /* GetAllImagesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79945624CA86B50074B932 /* GetAllImagesRequest.swift */; };
 		EC79945B24CC667D0074B932 /* ParametersMappingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79945A24CC667D0074B932 /* ParametersMappingProtocol.swift */; };
+		EC79945E24CD9B770074B932 /* .sourcery.yml in Resources */ = {isa = PBXBuildFile; fileRef = EC79945D24CD9B770074B932 /* .sourcery.yml */; };
+		EC79946024CD9D910074B932 /* AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79945F24CD9D910074B932 /* AutoMockable.generated.swift */; };
+		EC79946224CDBD430074B932 /* URLBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79946124CDBD430074B932 /* URLBuilderProtocol.swift */; };
+		EC79946424CDBDD90074B932 /* AutoMockableExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79946324CDBDD90074B932 /* AutoMockableExceptions.swift */; };
+		EC79946624CDC3270074B932 /* URLBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79946524CDC3270074B932 /* URLBuilderTests.swift */; };
+		FB7DFFC8409D37E4E2890F96 /* Pods_CatVoterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A391266CC115DA2346EB5881 /* Pods_CatVoterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,12 +71,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E9076F0C3550609372378F5 /* Pods-CatVoterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatVoterTests.release.xcconfig"; path = "Target Support Files/Pods-CatVoterTests/Pods-CatVoterTests.release.xcconfig"; sourceTree = "<group>"; };
-		5E65972F60D1352D41AA96EA /* Pods-CatVoter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatVoter.release.xcconfig"; path = "Target Support Files/Pods-CatVoter/Pods-CatVoter.release.xcconfig"; sourceTree = "<group>"; };
-		73C72C8691C0CC3374D4E64A /* Pods-CatVoter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatVoter.debug.xcconfig"; path = "Target Support Files/Pods-CatVoter/Pods-CatVoter.debug.xcconfig"; sourceTree = "<group>"; };
-		973159A00A31BDBD3B076236 /* Pods_CatVoter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatVoter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5EFED2F0694BC4463F67A11 /* Pods_CatVoterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatVoterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD464CB2C5379641BEA1960A /* Pods-CatVoterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatVoterTests.debug.xcconfig"; path = "Target Support Files/Pods-CatVoterTests/Pods-CatVoterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DC8FE46ED7A04263BBBE9FD /* Pods_TheCatsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheCatsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CFE91D8F45EAF24A6E9BD0 /* Pods-TheCatsAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatsAPITests.debug.xcconfig"; path = "Target Support Files/Pods-TheCatsAPITests/Pods-TheCatsAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34CCCF19A75E9678AE1CF796 /* Pods_TheCatsAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheCatsAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F80AA3E268C8C5B8BF29090 /* Pods-TheCatsAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatsAPI.release.xcconfig"; path = "Target Support Files/Pods-TheCatsAPI/Pods-TheCatsAPI.release.xcconfig"; sourceTree = "<group>"; };
+		4BF5E758278FB94D02151205 /* Pods-CatVoter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatVoter.debug.xcconfig"; path = "Target Support Files/Pods-CatVoter/Pods-CatVoter.debug.xcconfig"; sourceTree = "<group>"; };
+		586B0765495E6C798902DF3A /* Pods-TheCatsAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatsAPI.debug.xcconfig"; path = "Target Support Files/Pods-TheCatsAPI/Pods-TheCatsAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB0F57D2338D47E8D392B92 /* Pods-TheCatsAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatsAPITests.release.xcconfig"; path = "Target Support Files/Pods-TheCatsAPITests/Pods-TheCatsAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		A391266CC115DA2346EB5881 /* Pods_CatVoterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatVoterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D54E8825CBDF4024305639 /* Pods-CatVoter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatVoter.release.xcconfig"; path = "Target Support Files/Pods-CatVoter/Pods-CatVoter.release.xcconfig"; sourceTree = "<group>"; };
+		BE11954DA9C7371219A34909 /* Pods-CatVoterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatVoterTests.release.xcconfig"; path = "Target Support Files/Pods-CatVoterTests/Pods-CatVoterTests.release.xcconfig"; sourceTree = "<group>"; };
+		D782B9E1A9FC1E74D5F4CA11 /* Pods-CatVoterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatVoterTests.debug.xcconfig"; path = "Target Support Files/Pods-CatVoterTests/Pods-CatVoterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC79939D24CA253E0074B932 /* CatVoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatVoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7993A024CA253E0074B932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7993A224CA253E0074B932 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +96,6 @@
 		EC7993CE24CA37C70074B932 /* breeds.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = breeds.json; sourceTree = "<group>"; };
 		EC7993D024CA37F80074B932 /* categories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		EC7993D224CA391F0074B932 /* images.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = images.json; sourceTree = "<group>"; };
-		EC7993D424CA39E40074B932 /* LocalFileFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileFetcher.swift; sourceTree = "<group>"; };
 		EC7993D724CA4C450074B932 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
 		EC7993D924CA4C8E0074B932 /* FeedModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModule.swift; sourceTree = "<group>"; };
 		EC7993DB24CA4F920074B932 /* FeedController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedController.xib; sourceTree = "<group>"; };
@@ -108,6 +118,12 @@
 		EC79945324CA866A0074B932 /* TheCatsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCatsError.swift; sourceTree = "<group>"; };
 		EC79945624CA86B50074B932 /* GetAllImagesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllImagesRequest.swift; sourceTree = "<group>"; };
 		EC79945A24CC667D0074B932 /* ParametersMappingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersMappingProtocol.swift; sourceTree = "<group>"; };
+		EC79945D24CD9B770074B932 /* .sourcery.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .sourcery.yml; sourceTree = "<group>"; };
+		EC79945F24CD9D910074B932 /* AutoMockable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMockable.generated.swift; sourceTree = "<group>"; };
+		EC79946124CDBD430074B932 /* URLBuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilderProtocol.swift; sourceTree = "<group>"; };
+		EC79946324CDBDD90074B932 /* AutoMockableExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMockableExceptions.swift; sourceTree = "<group>"; };
+		EC79946524CDC3270074B932 /* URLBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilderTests.swift; sourceTree = "<group>"; };
+		F0FF499700367F1AD1F8C1C5 /* Pods_CatVoter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatVoter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02558E073995569A08143496 /* Pods_CatVoter.framework in Frameworks */,
+				6CFDA92503DA7EE5151BA2A7 /* Pods_CatVoter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05B3951D0475BB435C6FFC4 /* Pods_CatVoterTests.framework in Frameworks */,
+				FB7DFFC8409D37E4E2890F96 /* Pods_CatVoterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7132BC332F67D27AA75F176C /* Pods_TheCatsAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,17 +156,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC79943824CA7DD40074B932 /* TheCatsAPI.framework in Frameworks */,
+				44629F4C38F9931AFC4FC2B8 /* Pods_TheCatsAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		88219F1990518047CC4CD908 /* Frameworks */ = {
+		7D2A393ABC31F52A010324FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				973159A00A31BDBD3B076236 /* Pods_CatVoter.framework */,
-				C5EFED2F0694BC4463F67A11 /* Pods_CatVoterTests.framework */,
+				F0FF499700367F1AD1F8C1C5 /* Pods_CatVoter.framework */,
+				A391266CC115DA2346EB5881 /* Pods_CatVoterTests.framework */,
+				1DC8FE46ED7A04263BBBE9FD /* Pods_TheCatsAPI.framework */,
+				34CCCF19A75E9678AE1CF796 /* Pods_TheCatsAPITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,10 +177,14 @@
 		9BEDB7B75EC190C31124ECA3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73C72C8691C0CC3374D4E64A /* Pods-CatVoter.debug.xcconfig */,
-				5E65972F60D1352D41AA96EA /* Pods-CatVoter.release.xcconfig */,
-				DD464CB2C5379641BEA1960A /* Pods-CatVoterTests.debug.xcconfig */,
-				3E9076F0C3550609372378F5 /* Pods-CatVoterTests.release.xcconfig */,
+				4BF5E758278FB94D02151205 /* Pods-CatVoter.debug.xcconfig */,
+				B3D54E8825CBDF4024305639 /* Pods-CatVoter.release.xcconfig */,
+				D782B9E1A9FC1E74D5F4CA11 /* Pods-CatVoterTests.debug.xcconfig */,
+				BE11954DA9C7371219A34909 /* Pods-CatVoterTests.release.xcconfig */,
+				586B0765495E6C798902DF3A /* Pods-TheCatsAPI.debug.xcconfig */,
+				3F80AA3E268C8C5B8BF29090 /* Pods-TheCatsAPI.release.xcconfig */,
+				33CFE91D8F45EAF24A6E9BD0 /* Pods-TheCatsAPITests.debug.xcconfig */,
+				9CB0F57D2338D47E8D392B92 /* Pods-TheCatsAPITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -174,7 +198,7 @@
 				EC79943B24CA7DD40074B932 /* TheCatsAPITests */,
 				EC79939E24CA253E0074B932 /* Products */,
 				9BEDB7B75EC190C31124ECA3 /* Pods */,
-				88219F1990518047CC4CD908 /* Frameworks */,
+				7D2A393ABC31F52A010324FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -226,10 +250,11 @@
 		EC7993CD24CA37B20074B932 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				EC79945F24CD9D910074B932 /* AutoMockable.generated.swift */,
+				EC79946324CDBDD90074B932 /* AutoMockableExceptions.swift */,
 				EC7993CE24CA37C70074B932 /* breeds.json */,
 				EC7993D024CA37F80074B932 /* categories.json */,
 				EC7993D224CA391F0074B932 /* images.json */,
-				EC7993D424CA39E40074B932 /* LocalFileFetcher.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -274,6 +299,7 @@
 				EC79945324CA866A0074B932 /* TheCatsError.swift */,
 				EC79945124CA86510074B932 /* RequestProtocol.swift */,
 				EC79945A24CC667D0074B932 /* ParametersMappingProtocol.swift */,
+				EC79946124CDBD430074B932 /* URLBuilderProtocol.swift */,
 				EC79945524CA869D0074B932 /* Requests */,
 				EC7993C424CA33B30074B932 /* Model */,
 			);
@@ -283,7 +309,9 @@
 		EC79943B24CA7DD40074B932 /* TheCatsAPITests */ = {
 			isa = PBXGroup;
 			children = (
+				EC79945D24CD9B770074B932 /* .sourcery.yml */,
 				EC79943C24CA7DD40074B932 /* TheCatsAPITests.swift */,
+				EC79946524CDC3270074B932 /* URLBuilderTests.swift */,
 				EC79943E24CA7DD40074B932 /* Info.plist */,
 				EC7993CD24CA37B20074B932 /* Mocks */,
 			);
@@ -316,11 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC7993BC24CA25400074B932 /* Build configuration list for PBXNativeTarget "CatVoter" */;
 			buildPhases = (
-				2A26A3D386B3DB1BEBE5B64A /* [CP] Check Pods Manifest.lock */,
+				D9E1A036D22FC847D6511FA9 /* [CP] Check Pods Manifest.lock */,
 				EC79939924CA253E0074B932 /* Sources */,
 				EC79939A24CA253E0074B932 /* Frameworks */,
 				EC79939B24CA253E0074B932 /* Resources */,
-				C3F1664E9177249260DD117B /* [CP] Embed Pods Frameworks */,
+				78721536D4B12888DE0E137B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -336,11 +364,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC7993BF24CA25400074B932 /* Build configuration list for PBXNativeTarget "CatVoterTests" */;
 			buildPhases = (
-				082367D765161875FEBA1DB8 /* [CP] Check Pods Manifest.lock */,
+				B04832A28A415CEB2D61D445 /* [CP] Check Pods Manifest.lock */,
+				EC7993E824CA6B8F0074B932 /* Sourcery */,
 				EC7993AF24CA25400074B932 /* Sources */,
 				EC7993B024CA25400074B932 /* Frameworks */,
 				EC7993B124CA25400074B932 /* Resources */,
-				EC7993E824CA6B8F0074B932 /* Sourcery */,
 			);
 			buildRules = (
 			);
@@ -356,6 +384,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC79944024CA7DD40074B932 /* Build configuration list for PBXNativeTarget "TheCatsAPI" */;
 			buildPhases = (
+				9C2A23544494CF28713A8322 /* [CP] Check Pods Manifest.lock */,
 				EC79942A24CA7DD30074B932 /* Headers */,
 				EC79942B24CA7DD30074B932 /* Sources */,
 				EC79942C24CA7DD30074B932 /* Frameworks */,
@@ -374,9 +403,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC79944324CA7DD40074B932 /* Build configuration list for PBXNativeTarget "TheCatsAPITests" */;
 			buildPhases = (
+				99C8094449699F20B28C0C17 /* [CP] Check Pods Manifest.lock */,
+				EC79945C24CD9B4D0074B932 /* Sourcery */,
 				EC79943324CA7DD40074B932 /* Sources */,
 				EC79943424CA7DD40074B932 /* Frameworks */,
 				EC79943524CA7DD40074B932 /* Resources */,
+				45E166B363198C9C86FF2A4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -468,13 +500,92 @@
 				EC79944D24CA80DB0074B932 /* breeds.json in Resources */,
 				EC79944E24CA80DB0074B932 /* categories.json in Resources */,
 				EC79944F24CA80DB0074B932 /* images.json in Resources */,
+				EC79945E24CD9B770074B932 /* .sourcery.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		082367D765161875FEBA1DB8 /* [CP] Check Pods Manifest.lock */ = {
+		45E166B363198C9C86FF2A4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheCatsAPITests/Pods-TheCatsAPITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheCatsAPITests/Pods-TheCatsAPITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheCatsAPITests/Pods-TheCatsAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78721536D4B12888DE0E137B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatVoter/Pods-CatVoter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatVoter/Pods-CatVoter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatVoter/Pods-CatVoter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C8094449699F20B28C0C17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheCatsAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2A23544494CF28713A8322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheCatsAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04832A28A415CEB2D61D445 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -496,7 +607,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2A26A3D386B3DB1BEBE5B64A /* [CP] Check Pods Manifest.lock */ = {
+		D9E1A036D22FC847D6511FA9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,23 +629,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C3F1664E9177249260DD117B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CatVoter/Pods-CatVoter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CatVoter/Pods-CatVoter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatVoter/Pods-CatVoter-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		EC7993E824CA6B8F0074B932 /* Sourcery */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -552,6 +646,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "${PODS_ROOT}/Sourcery/bin/sourcery --config CatVoterTests/.sourcery.yml\n";
+		};
+		EC79945C24CD9B4D0074B932 /* Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Sourcery;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Sourcery/bin/sourcery --config TheCatsAPITests/.sourcery.yml\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -589,6 +701,7 @@
 				EC79945424CA866A0074B932 /* TheCatsError.swift in Sources */,
 				EC79944724CA7E210074B932 /* TheCatsAPI.swift in Sources */,
 				EC79945B24CC667D0074B932 /* ParametersMappingProtocol.swift in Sources */,
+				EC79946224CDBD430074B932 /* URLBuilderProtocol.swift in Sources */,
 				EC79944A24CA7F980074B932 /* Image.swift in Sources */,
 				EC79944B24CA7F9B0074B932 /* Category.swift in Sources */,
 				EC79945224CA86510074B932 /* RequestProtocol.swift in Sources */,
@@ -599,8 +712,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC79946424CDBDD90074B932 /* AutoMockableExceptions.swift in Sources */,
 				EC79943D24CA7DD40074B932 /* TheCatsAPITests.swift in Sources */,
-				EC79945024CA80DB0074B932 /* LocalFileFetcher.swift in Sources */,
+				EC79946024CD9D910074B932 /* AutoMockable.generated.swift in Sources */,
+				EC79946624CDC3270074B932 /* URLBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,7 +867,7 @@
 		};
 		EC7993BD24CA25400074B932 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73C72C8691C0CC3374D4E64A /* Pods-CatVoter.debug.xcconfig */;
+			baseConfigurationReference = 4BF5E758278FB94D02151205 /* Pods-CatVoter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -771,7 +886,7 @@
 		};
 		EC7993BE24CA25400074B932 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E65972F60D1352D41AA96EA /* Pods-CatVoter.release.xcconfig */;
+			baseConfigurationReference = B3D54E8825CBDF4024305639 /* Pods-CatVoter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -790,11 +905,11 @@
 		};
 		EC7993C024CA25400074B932 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD464CB2C5379641BEA1960A /* Pods-CatVoterTests.debug.xcconfig */;
+			baseConfigurationReference = D782B9E1A9FC1E74D5F4CA11 /* Pods-CatVoterTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CatVoterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -804,6 +919,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = by.dukhovich.CatVoterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatVoter.app/CatVoter";
@@ -812,11 +929,11 @@
 		};
 		EC7993C124CA25400074B932 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E9076F0C3550609372378F5 /* Pods-CatVoterTests.release.xcconfig */;
+			baseConfigurationReference = BE11954DA9C7371219A34909 /* Pods-CatVoterTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CatVoterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -826,6 +943,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = by.dukhovich.CatVoterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatVoter.app/CatVoter";
@@ -834,6 +953,7 @@
 		};
 		EC79944124CA7DD40074B932 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586B0765495E6C798902DF3A /* Pods-TheCatsAPI.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -854,9 +974,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = by.dukhovich.TheCatsAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -864,6 +985,7 @@
 		};
 		EC79944224CA7DD40074B932 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F80AA3E268C8C5B8BF29090 /* Pods-TheCatsAPI.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -884,8 +1006,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = by.dukhovich.TheCatsAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -893,9 +1016,12 @@
 		};
 		EC79944424CA7DD40074B932 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CFE91D8F45EAF24A6E9BD0 /* Pods-TheCatsAPITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TheCatsAPITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -905,6 +1031,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = by.dukhovich.TheCatsAPITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -912,9 +1040,12 @@
 		};
 		EC79944524CA7DD40074B932 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB0F57D2338D47E8D392B92 /* Pods-TheCatsAPITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TheCatsAPITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -924,6 +1055,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = by.dukhovich.TheCatsAPITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

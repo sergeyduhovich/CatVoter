@@ -1,5 +1,6 @@
 import Foundation
 
+// sourcery: AutoMockable
 public protocol ParametersMappingProtocol {
     var queryItems: Array<URLQueryItem>? { get }
     var body: Data? { get }

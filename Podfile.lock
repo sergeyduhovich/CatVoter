@@ -1,24 +1,40 @@
 PODS:
+  - OHHTTPStubs/Core (9.0.0)
+  - OHHTTPStubs/Default (9.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.0.0)
+  - OHHTTPStubs/Swift (9.0.0):
+    - OHHTTPStubs/Default
   - Sourcery (0.18.0)
   - SVProgressHUD (2.2.5)
   - SwiftLint (0.39.2)
 
 DEPENDENCIES:
+  - OHHTTPStubs/Swift
   - Sourcery
   - SVProgressHUD
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - OHHTTPStubs
     - Sourcery
     - SVProgressHUD
     - SwiftLint
 
 SPEC CHECKSUMS:
+  OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
   Sourcery: e0e8658a1ce6d9f475156ad3ffce4c68f1261b3e
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
 
-PODFILE CHECKSUM: 2032420df4f932f918cbcfed85707d5e9c56b94c
+PODFILE CHECKSUM: d02279d69b294b42bae564deb930322089f0b0c9
 
 COCOAPODS: 1.9.3

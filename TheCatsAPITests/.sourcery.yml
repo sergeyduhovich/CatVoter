@@ -1,10 +1,10 @@
 sources:
     include:
-        - ../CatVoter
+        - ../TheCatsAPI
 templates:
     - ../Sourcery/AutoMockable.stencil
 output:
     Mocks
 args:
     testable_imports:
-        - CatVoter
+        - TheCatsAPI

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC79939C24CA253E0074B932"
-               BuildableName = "CatVoter.app"
-               BlueprintName = "CatVoter"
+               BlueprintIdentifier = "EC79942E24CA7DD30074B932"
+               BuildableName = "TheCatsAPI.framework"
+               BlueprintName = "TheCatsAPI"
                ReferencedContainer = "container:CatVoter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,16 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC7993B224CA25400074B932"
-               BuildableName = "CatVoterTests.xctest"
-               BlueprintName = "CatVoterTests"
-               ReferencedContainer = "container:CatVoter.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
@@ -61,16 +51,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC79939C24CA253E0074B932"
-            BuildableName = "CatVoter.app"
-            BlueprintName = "CatVoter"
-            ReferencedContainer = "container:CatVoter.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -78,16 +58,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC79939C24CA253E0074B932"
-            BuildableName = "CatVoter.app"
-            BlueprintName = "CatVoter"
+            BlueprintIdentifier = "EC79942E24CA7DD30074B932"
+            BuildableName = "TheCatsAPI.framework"
+            BlueprintName = "TheCatsAPI"
             ReferencedContainer = "container:CatVoter.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
