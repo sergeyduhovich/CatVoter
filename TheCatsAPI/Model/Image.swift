@@ -1,6 +1,6 @@
 import Foundation
 
-struct Image: Codable {
+public struct Image: Codable {
     let id: String
     let url: String
     let width: Int
