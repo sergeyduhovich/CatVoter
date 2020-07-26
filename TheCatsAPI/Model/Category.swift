@@ -1,6 +1,6 @@
 import Foundation
 
-struct Category: Codable {
+public struct Category: Codable {
     let id: Int
     let name: String
 }

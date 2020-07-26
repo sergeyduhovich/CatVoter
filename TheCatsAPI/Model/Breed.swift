@@ -1,6 +1,6 @@
 import Foundation
 
-struct Breed: Codable {
+public struct Breed: Codable {
     let id: String
     let name: String
     let description: String
