@@ -1,7 +1,9 @@
 // swiftlint:disable line_length
 // swiftlint:disable variable_name
 
-@testable import CatVoter
+{% for testImport in argument.testable_imports %}
+@testable import {{ testImport }}
+{% endfor %}
 
 {% macro swiftifyMethodName name %}{{ name | replace:"(","_" | replace:")","" | replace:":","_" | replace:"`","" | snakeToCamelCase | lowerFirstWord }}{% endmacro %}
 

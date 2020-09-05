@@ -2,26 +2,26 @@ import Foundation
 
 public class TheCatsAPI {
 
-    let apiKey: String
-    let session = URLSession.shared
-    let apiHost = "api.thecatapi.com"
-    let apiVersion = "v1"
+    private let session = URLSession.shared
+    private let apiKey: String
+    private let baseURL: String
+    private let urlBuilder: URLBuilderProtocol
 
-    public init(apiKey: String) {
+    public init(apiKey: String,
+                baseURL: String = "https://api.thecatapi.com/v1",
+                urlBuilder: URLBuilderProtocol = URLBuilder()) {
         self.apiKey = apiKey
+        self.baseURL = baseURL
+        self.urlBuilder = urlBuilder
     }
 
     func send<Request: RequestProtocol>(request: Request, completion: @escaping Request.Completion) {
-        
-        guard let url = url(for: request) else {
+        guard var urlRequest = urlBuilder.urlRequest(for: request, baseURL: baseURL) else {
             completion(.failure(.invalidURL))
             return
         }
 
-        var urlRequest = URLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30)
         urlRequest.addValue(apiKey, forHTTPHeaderField: "x-api-key")
-        urlRequest.httpMethod = request.httpMethod
-        urlRequest.httpBody = request.parameters.body
 
         let task = session.dataTask(with: urlRequest) { [weak self] data, response, error in
             guard let self = self else {
@@ -35,15 +35,6 @@ public class TheCatsAPI {
 }
 
 private extension TheCatsAPI {
-    func url<Request: RequestProtocol>(for request: Request) -> URL? {
-        var components = URLComponents()
-        components.scheme = "https"
-        components.host = apiHost
-        components.path = "/" + apiVersion + "/" + request.path
-        components.queryItems = request.parameters.queryItems
-        return components.url
-    }
-
     func process<T: Decodable>(data: Data?, response: URLResponse?, error: Error?) -> Result<T, TheCatsError> {
         guard error == nil else {
             return .failure(.network(error!))
@@ -56,7 +47,7 @@ private extension TheCatsAPI {
         }
 
         guard let data = data else {
-            return .failure(.decodingFailed(nil))
+            return .failure(.noDataInResponse)
         }
 
         let decoder = JSONDecoder()

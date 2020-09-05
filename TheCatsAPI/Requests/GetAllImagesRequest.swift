@@ -12,13 +12,12 @@ extension TheCatsAPI {
 }
 
 struct GetAllImagesRequest: RequestProtocol {
-    var path = "images/search"
-    var parameters = ImagesRequestParameters()
-
-    typealias Parameters = ImagesRequestParameters
     typealias Response = [Image]
 
-    init(parameters: ImagesRequestParameters) {
+    var path = "images/search"
+    var parameters: ParametersMappingProtocol
+
+    init(parameters: ParametersMappingProtocol = ImagesRequestParameters()) {
         self.parameters = parameters
     }
 }

@@ -1,12 +1,11 @@
 import Foundation
 
 public protocol RequestProtocol {
-    typealias Completion = (Result<Response, TheCatsError>) -> Void
-    associatedtype Parameters: ParametersMappingProtocol
     associatedtype Response: Decodable
+    typealias Completion = (Result<Response, TheCatsError>) -> Void
 
     var path: String { get }
-    var parameters: Parameters { get set }
+    var parameters: ParametersMappingProtocol { get set }
     var httpMethod: String { get }
 }
 

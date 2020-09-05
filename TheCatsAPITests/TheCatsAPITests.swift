@@ -2,25 +2,32 @@ import XCTest
 @testable import TheCatsAPI
 
 class TheCatsAPITests: XCTestCase {
+    typealias ResponseType = [Int]
+    typealias RequestType = RequestProtocolMock<ResponseType>
+
+    var request: RequestType!
+    var sut: TheCatsAPI!
+    var urlBuilder: URLBuilderProtocolMock<RequestType>!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        request = RequestProtocolMock()
+        urlBuilder = URLBuilderProtocolMock()
+        sut = TheCatsAPI.init(apiKey: "QWERTY", baseURL: "http://api.com", urlBuilder: urlBuilder)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    func test_sendRequest_nilRequest_failsWithInvalidURL() throws {
+        urlBuilder.urlRequestForBaseURLReturnValue = nil
+        var result: Result<ResponseType, TheCatsError>!
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+        let expectation = self.expectation(description: "test_sendRequest_nilRequest_fails")
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        sut.send(request: request) { res in
+            result = res
+            expectation.fulfill()
         }
-    }
 
+        waitForExpectations(timeout: 0.1, handler: nil)
+
+        XCTAssertEqual(result, .failure(.invalidURL))
+    }
 }
